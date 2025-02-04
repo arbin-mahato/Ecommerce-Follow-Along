@@ -1,5 +1,45 @@
 # Ecommerce Follow-Along Project 🚀
 
+# **Milestone 4: User Model, Controllers & File Uploads** 🚀
+
+## **Overview**
+
+In **Milestone 4**, we focused on **creating a User Model, setting up controllers to handle user data, and enabling file uploads using Multer**. These are critical components for managing users in our e-commerce application.
+
+---
+
+## **Key Accomplishments**
+
+### 🏗 **User Model Setup**
+
+- Designed a **User Schema** using **Mongoose**.
+- Defined user attributes like **name, email, password, and role**.
+- Ensured **password security** using **bcrypt** for hashing.
+
+### 🛠 **User Controller Implementation**
+
+- Created **controllers** to handle user-related operations.
+- Added API routes for:
+  - ✅ **User Registration**
+  - ✅ **User Login & Authentication**
+  - ✅ **Fetching User Data**
+
+### 🖼 **File Uploads with Multer**
+
+- Integrated **Multer** for handling **image uploads**.
+- Allowed users to **upload profile pictures** securely.
+- Configured the backend to **store and retrieve files** efficiently.
+
+---
+
+## 🎯 **Learning Outcomes**
+
+By completing this milestone, we learned:  
+✅ How to **create and manage a User Model** in MongoDB.  
+✅ How to **set up Express controllers** for user authentication.  
+✅ How to **use Multer** to handle **file uploads**.  
+✅ How to **structure backend routes** for scalability.
+
 ## Milestone 3: Backend Setup & Database Connection
 
 ### Overview
