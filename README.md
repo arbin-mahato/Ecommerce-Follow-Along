@@ -1,6 +1,5 @@
 # Ecommerce Follow-Along Project 🚀
 
-<<<<<<< HEAD
 ## Milestone 3: Backend Setup & Database Connection
 
 ### Overview
@@ -65,6 +64,7 @@ Configured **Tailwind CSS** for utility-based styling.
 Implemented a fully functional and styled **Login Page**.
 
 =======
+
 ## Milestone 2: Project Structure & Login Page
 
 ### Overview
@@ -83,7 +83,8 @@ Initialized a **React app** for building the user interface.
 Configured **Tailwind CSS** for utility-based styling.
 Implemented a fully functional and styled **Login Page**.
 
->>>>>>> 8cfc305b90a610cba48374f4e04057e3e0cf289f
+> > > > > > > 8cfc305b90a610cba48374f4e04057e3e0cf289f
+
 #### 🛠 Backend Setup
 
 Set up a basic **Node.js + Express** server to prepare for future API integration.
@@ -106,7 +107,6 @@ The repository includes:
 ✅ **Updated README** summarizing the progress.
 🚀 Ready for the next milestone!
 
-<<<<<<< HEAD
 # Project-Milestone-1
 
 This milestone will explain the overall vision, goals, and key features of the e-commerce application.
@@ -237,7 +237,9 @@ Tracks orders, including user info, product details, and order status. The schem
 ### JSON Web Tokens (JWT) are used to handle authentication securely.
 
 ### Role-based access ensures that only authorized users can perform specific actions (e.g., admin users managing products).
+
 =======
+
 ## Milestone 3: Backend Setup & Database Connection
 
 ### Overview
@@ -282,4 +284,3 @@ The repository includes:
 ✅ **Updated README** with Milestone 3 details.
 
 🚀 **Onward to Milestone 4**!
->>>>>>> 8cfc305b90a610cba48374f4e04057e3e0cf289f
