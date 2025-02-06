@@ -1,5 +1,3 @@
-# Ecommerce Follow-Along Project 🚀
-
 # **Ecommerce Follow-Along Project 🚀**
 
 ---
