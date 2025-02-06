@@ -161,26 +161,6 @@ Initialized a **React app** for building the user interface.
 Configured **Tailwind CSS** for utility-based styling.
 Implemented a fully functional and styled **Login Page**.
 
-=======
-
-## Milestone 2: Project Structure & Login Page
-
-### Overview
-
-In Milestone 2, we focused on structuring the project, setting up both the **frontend/** and **backend/**, and developing the **Login Page** for the e-commerce application.
-
-### Key Accomplishments
-
-#### 📁 Project Structure
-
-Organized the project with separate frontend/ and backend/ directories.
-
-#### 🌐 Frontend Setup
-
-Initialized a **React app** for building the user interface.
-Configured **Tailwind CSS** for utility-based styling.
-Implemented a fully functional and styled **Login Page**.
-
 # Project-Milestone-1
 
 This milestone will explain the overall vision, goals, and key features of the e-commerce application.
