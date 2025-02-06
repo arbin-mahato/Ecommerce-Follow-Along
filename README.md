@@ -1,5 +1,65 @@
 # Ecommerce Follow-Along Project 🚀
 
+# **Ecommerce Follow-Along Project 🚀**
+
+---
+
+# **Milestone 5: Sign-Up Page & Form Validation** 🌟
+
+## **Overview**
+
+In **Milestone 5**, we focused on building the **Sign-Up Page** for new users and implementing **form validation** to ensure that user inputs are correctly formatted before submission.
+
+---
+
+## **Key Accomplishments**
+
+### 🏗 **Sign-Up Page UI Development**
+
+- Created a **user-friendly Sign-Up Page** using **React & Tailwind CSS**.
+- Designed a clean and modern form with the following fields:
+  - **Name**
+  - **Email**
+  - **Password**
+
+### 🔍 **Form Validation Implementation**
+
+- Ensured that users provide **valid input data** before submitting the form.
+- Added **real-time validation** for:
+  - ✅ **Email Format Validation** (must be a valid email).
+  - ✅ **Password Strength Check** (minimum length requirement).
+  - ✅ **Required Fields** (users cannot submit empty fields).
+
+### 🔄 **Connecting the Frontend to Backend**
+
+- Configured the **Sign-Up form** to send user data to the backend API.
+- Set up an **API request** using **fetch/Axios** to register new users.
+
+---
+
+## 🎯 **Learning Outcomes**
+
+By completing this milestone, we learned:  
+✅ How to **build a responsive Sign-Up Page** in React.  
+✅ How to **validate user inputs** before submitting a form.  
+✅ How to **send Sign-Up data to the backend API**.  
+✅ How to **handle frontend validation errors** effectively.
+
+---
+
+## ✅ **Submission Details**
+
+- Code is pushed to the **Milestone-5 branch** in the GitHub repository.
+- The repository includes:
+  - ✅ **Sign-Up Page UI (React + Tailwind CSS)**.
+  - ✅ **Form validation for email & password**.
+  - ✅ **API request to send user data to the backend**.
+  - ✅ **Updated README with Milestone 5 details**.
+
+🚀 **Onward to Milestone 6!**
+
+---
+
 # **Milestone 4: User Model, Controllers & File Uploads** 🚀
 
 ## **Overview**
@@ -122,30 +182,6 @@ Organized the project with separate frontend/ and backend/ directories.
 Initialized a **React app** for building the user interface.
 Configured **Tailwind CSS** for utility-based styling.
 Implemented a fully functional and styled **Login Page**.
-
-> > > > > > > 8cfc305b90a610cba48374f4e04057e3e0cf289f
-
-#### 🛠 Backend Setup
-
-Set up a basic **Node.js + Express** server to prepare for future API integration.
-
-### 🎯 Learning Outcomes
-
-By completing this milestone, we learned:
-
-How to structure a **full-stack project**.
-Setting up a **React application** with Tailwind CSS.
-Configuring a **Node.js backend**.
-Creating a **login page** with basic styling and functionality.
-
-### ✅ Submission Details
-
-Code is pushed to the **GitHub repository** created in Milestone 1.
-The repository includes:
-✅ Proper **folder structure** (frontend & backend).
-✅ Functional **Login Page**.
-✅ **Updated README** summarizing the progress.
-🚀 Ready for the next milestone!
 
 # Project-Milestone-1
 
@@ -277,50 +313,3 @@ Tracks orders, including user info, product details, and order status. The schem
 ### JSON Web Tokens (JWT) are used to handle authentication securely.
 
 ### Role-based access ensures that only authorized users can perform specific actions (e.g., admin users managing products).
-
-=======
-
-## Milestone 3: Backend Setup & Database Connection
-
-### Overview
-
-In Milestone 3, we focused on setting up the **backend**, connecting to **MongoDB**, and implementing basic **error handling** to support the growing application.
-
-### Key Accomplishments
-
-#### 📁 Backend Folder Structure
-
-Organized backend files into **routes**, **controllers**, **models**, and **middleware**.
-Ensured a **scalable and maintainable** backend architecture.
-
-#### 🌐 Server Setup
-
-Initialized and configured a **Node.js + Express** server.
-Set up **CORS & environment variables** for better security and flexibility.
-
-#### 🗄 Database Connection
-
-Integrated **MongoDB** using **Mongoose** for efficient data storage.
-Implemented a **successful database connection check**.
-
-#### ⚠ Error Handling
-
-Created **middleware** to handle errors gracefully.
-Provided **clear error messages** for debugging and user feedback.
-
-#### 🎯 Learning Outcomes
-
-By completing this milestone, we learned:
-
-How to **structure a backend** properly.
-Connecting a **MongoDB database** to a Node.js server.
-Implementing **error handling** in an Express app.
-✅ Submission Details
-Code is pushed to the **Milestone-3 branch** in the GitHub repository.
-The repository includes:
-✅ Proper **backend folder structure**.
-✅ **Connected MongoDB database**.
-✅ **Error handling middleware**.
-✅ **Updated README** with Milestone 3 details.
-
-🚀 **Onward to Milestone 4**!
