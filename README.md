@@ -1,6 +1,56 @@
-# **Ecommerce Follow-Along Project 🚀**
+# **E-commerce Follow-Along Project 🚀**
 
 ---
+
+# **Milestone 6: Backend Endpoint for the SignUp Page** 🌟
+
+## **Overview**
+
+In **Milestone 6**, we focused on creating a **backend endpoint** for the Signup page to securely store user data. The key highlights include **encrypting user passwords** and saving all relevant user details securely in the database. 🚀
+
+---
+
+## **Learning Goals** 🎯
+
+By completing this milestone, we learned:
+
+- **How to encrypt passwords before saving** using hashing mechanisms.
+- **How to store user data securely** in the database.
+
+---
+
+## **Why Encrypt Passwords?** 🤔
+
+- **Protect User Data**: Safeguards user passwords if the database is compromised.
+- **Ensure Privacy**: Prevents passwords from being visible to anyone.
+- **Achieve Compliance**: Meets security standards like **GDPR** and **PCI-DSS**.
+- **Prevent Password Theft**: Makes it harder for attackers to steal or guess passwords.
+
+---
+
+## **Steps Accomplished in Milestone 6** 📝
+
+### **1️⃣ Encrypt the Password**
+
+- Utilized **bcrypt** to hash user passwords during signup.
+- Stored the **hashed password** in the database instead of plain text.
+
+### **2️⃣ Store Complete User Data**
+
+- Stored all user details (e.g., `name`, `email`) in the database while keeping the password encrypted.
+
+---
+
+## **Technologies Used** 💻
+
+- **Node.js**: Backend server setup
+- **Express.js**: Routing and middleware for the Signup API
+- **MongoDB**: Database to store user information securely
+- **Bcrypt**: For password hashing
+
+---
+
+🚀 **Onward to Milestone 7!**
 
 # **Milestone 5: Sign-Up Page & Form Validation** 🌟
 
