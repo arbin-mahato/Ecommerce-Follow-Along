@@ -2,6 +2,57 @@
 
 ---
 
+# **Milestone 7: Backend Endpoint for User Login** 🔑
+
+## **Overview**
+
+In **Milestone 7**, we implemented the **backend login endpoint** to authenticate users securely. This milestone focuses on **validating user credentials**, comparing **hashed passwords**, and ensuring **secure login authentication**.
+
+---
+
+## **Key Accomplishments**
+
+### 🔐 **User Authentication Implementation**
+
+- Created a **login API endpoint** to authenticate users.
+- Fetched **user data** from the database based on the provided email/username.
+- Returned an error message if the user **does not exist**.
+
+### 🔄 **Password Hash Comparison**
+
+- Used **bcrypt.js** to compare the user’s **entered password** with the **stored hashed password**.
+- Ensured **passwords are never stored in plain text**.
+- Implemented **secure error handling** to prevent credential leaks.
+
+### 🔥 **Security Enhancements**
+
+- Enforced **secure password storage** with **hashing** (one-way encryption).
+- Implemented **JWT authentication** for **session management**.
+- Added **error handling for invalid credentials** to prevent brute-force attacks.
+
+---
+
+## **🎯 Learning Outcomes**
+
+By completing this milestone, we learned:  
+✅ How to **validate user credentials** securely.  
+✅ How to **compare hashed passwords** using bcrypt.  
+✅ How to **implement secure login authentication** in a Node.js backend.  
+✅ How to **prevent common security vulnerabilities** in authentication.
+
+---
+
+## **✅ Submission Details**
+
+- Code is pushed to the **Milestone-7 branch** in the GitHub repository.
+- The repository includes:
+  - ✅ **Login API endpoint** for user authentication.
+  - ✅ **Secure password hashing & comparison**.
+  - ✅ **Error handling for incorrect credentials**.
+  - ✅ **Updated README with Milestone 7 details**.
+
+🚀 **Onward to Milestone 8!**
+
 # **Milestone 6: Backend Endpoint for the SignUp Page** 🌟
 
 ## **Overview**
