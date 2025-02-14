@@ -2,6 +2,63 @@
 
 ---
 
+# **Milestone 8: Product Card Component & Homepage Design** 🌟
+
+## **Overview**
+
+In **Milestone 8**, we focused on creating a **Product Card Component** and designing the **Homepage Layout** to dynamically display multiple product cards. The goal was to ensure a clean, structured, and reusable design for showcasing products effectively. 🚀
+
+---
+
+## **Learning Goals** 🎯
+
+By completing this milestone, we learned:
+
+- **How to create a reusable Card Component** to display product details.
+- **How to dynamically render multiple cards** using array mapping.
+- **How to structure the homepage layout** for a visually appealing product showcase.
+
+---
+
+## **Why Create Card Components?** 🤔
+
+- **Showcase Products Effectively**: Presents product details in a clear and structured way.
+- **Reusable Design**: A single component can be used across multiple sections.
+- **Improved User Experience**: Makes product browsing more interactive and seamless.
+- **Organized Layout**: Ensures a well-structured and responsive design.
+
+---
+
+## **Steps Accomplished in Milestone 8** 📝
+
+### **1️⃣ Created the Product Card Component**
+
+- Designed a **reusable card component** with props for:
+  - 🖼 **Product Image**
+  - 🏷 **Product Name**
+  - 💲 **Product Price**
+
+### **2️⃣ Implemented Dynamic Rendering**
+
+- Used **array mapping** to iterate over the product list.
+- Passed **product details dynamically** to each card component.
+
+### **3️⃣ Designed the Homepage Layout**
+
+- Implemented **grid/flexbox layout** to neatly display product cards.
+- Ensured a **responsive design** for different screen sizes.
+
+---
+
+## **Technologies Used** 💻
+
+- **React.js**: Built the Product Card Component.
+- **Tailwind CSS / CSS Modules**: Styled the card component and homepage layout.
+
+---
+
+🚀 **Onward to Milestone 9!**
+
 # **Milestone 7: Backend Endpoint for User Login** 🔑
 
 ## **Overview**
