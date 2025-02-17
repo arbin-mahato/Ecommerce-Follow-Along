@@ -2,6 +2,71 @@
 
 ---
 
+# **Milestone 10: Product Schema & API Endpoint** 🌟
+
+## **Overview**
+
+In **Milestone 10**, we focused on creating a **Mongoose schema for products** and setting up an **API endpoint** to store product details in **MongoDB**. This ensures proper data structure, validation, and seamless storage of product information. 🚀
+
+---
+
+## **Learning Goals** 🎯
+
+By completing this milestone, we learned:
+
+- **How to write a Mongoose schema** for product data.
+- **How to create a POST API endpoint** to store product details.
+- **How to validate product data** before saving it to the database.
+
+---
+
+## **Why Schema & Validation?** 🤔
+
+- **Defines the Product Structure**: Ensures all product data is stored in a consistent format.
+- **Maintains Data Integrity**: Prevents incorrect or missing product details from being saved.
+- **Improves Database Queries**: Structured data helps in efficient retrieval and filtering.
+
+---
+
+## **Steps Accomplished in Milestone 10** 📝
+
+### **1️⃣ Created the Mongoose Product Schema**
+
+- Defined **product fields** such as:
+
+  - 🏷 **Product Name** (String, required)
+  - 📄 **Description** (String, required)
+  - 💲 **Price** (Number, required)
+  - 📦 **Category** (String, required)
+  - 🖼 **Image URLs** (Array of Strings)
+  - 📅 **CreatedAt & UpdatedAt** timestamps
+
+- Added **validations** to ensure proper data input.
+
+### **2️⃣ Built the Product API Endpoint**
+
+- **Created a POST API route** to handle product submissions.
+- **Validated incoming data** before saving it to MongoDB.
+- **Stored the product details** in the database securely.
+
+### **3️⃣ Prepared for Future Enhancements**
+
+- Suggested improvements such as:
+  - **Admin Access Control**: Allow only admins to add products.
+  - **Shop Profile Feature**: Restrict product uploads to specific shop owners.
+
+---
+
+## **Technologies Used** 💻
+
+- **Node.js & Express.js**: Built the backend server and API.
+- **MongoDB & Mongoose**: Created and managed the product schema.
+- **Postman**: Tested API requests and responses.
+
+---
+
+🚀 **Onward to Milestone 11!**
+
 # **Milestone 9: Product Form for Adding New Products** 🌟
 
 ## **Overview**
