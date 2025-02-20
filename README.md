@@ -2,6 +2,62 @@
 
 ---
 
+# **Milestone 11: Displaying Products on Homepage** 🏪
+
+## **Overview**
+
+In **Milestone 11**, we focused on making our **homepage dynamic** by displaying all the products stored in **MongoDB**. This involved **fetching product data from the backend** and rendering it dynamically using the **Product Card component**. 🚀
+
+---
+
+## **Learning Goals** 🎯
+
+By completing this milestone, we learned:
+
+- ✅ How to write an **API endpoint** to retrieve all product data.
+- ✅ How to **fetch data in the frontend** using an API call.
+- ✅ How to **dynamically display products** using the Product Card component.
+
+---
+
+## **Why Make the Homepage Dynamic?** 🤔
+
+- **Enhances User Experience**: Users can see all available products instantly.
+- **Real-Time Updates**: Any new product added is displayed automatically.
+- **Efficient Data Handling**: Fetching from the database ensures up-to-date information.
+
+---
+
+## **Steps Accomplished in Milestone 11** 📝
+
+### **1️⃣ Created an API Endpoint to Fetch Products**
+
+- Built a **GET API endpoint** in the backend to **retrieve all product data** from MongoDB.
+- Used **Mongoose queries** to fetch the product list.
+
+### **2️⃣ Fetched Product Data in the Frontend**
+
+- Made an **API request** from the frontend to get all products.
+- Used **state management** to store and display product data dynamically.
+
+### **3️⃣ Displayed Products Using the Product Card Component**
+
+- Mapped through the **fetched product data**.
+- Passed product details as **props** to the **Product Card component**.
+- Rendered each product dynamically on the homepage.
+
+---
+
+## **Technologies Used** 💻
+
+- **Node.js & Express.js**: Backend API to serve product data.
+- **MongoDB & Mongoose**: Stored and retrieved product data.
+- **React.js**: Fetched and displayed products dynamically.
+
+---
+
+🚀 **Onward to Milestone 12!**
+
 # **Milestone 10: Product Schema & API Endpoint** 🌟
 
 ## **Overview**
