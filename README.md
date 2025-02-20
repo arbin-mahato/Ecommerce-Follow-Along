@@ -2,6 +2,52 @@
 
 ---
 
+# Milestone 12: My Products Page 📦
+
+## Overview
+
+In Milestone 12, we created a **My Products Page** that dynamically displays all the products added by the logged-in user. This involved filtering products based on the user's email and rendering them using the existing **Product Card** component. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to write an API endpoint to filter and retrieve products based on the user's email.  
+✅ How to fetch the filtered data in the frontend.  
+✅ How to dynamically display the products using the Product Card component.
+
+## Why Filter Products by User Email? 🤔
+
+- **Personalized Product Management**: Users can view only their own listed products.
+- **Efficient Data Handling**: Fetching only relevant products improves performance.
+- **Scalability**: Helps in building user-specific dashboards in the future.
+
+## Steps Accomplished in Milestone 12 📝
+
+### 1️⃣ Created an API Endpoint to Fetch User-Specific Products
+
+- Built a **GET API endpoint** in the backend to retrieve only the products added by the logged-in user.
+- Used **Mongoose queries** to filter products based on the user’s email.
+
+### 2️⃣ Fetched Filtered Product Data in the Frontend
+
+- Made an **API request** from the frontend to get only the user's products.
+- Managed **state** to store and display the data dynamically.
+
+### 3️⃣ Displayed Products Using the Product Card Component
+
+- Mapped through the filtered product list.
+- Passed product details as **props** to the **Product Card** component.
+- Rendered the filtered products dynamically on the **My Products Page**.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Backend API to serve filtered product data.
+- **MongoDB & Mongoose**: Querying and retrieving user-specific products.
+- **React.js**: Fetching and displaying filtered products dynamically.
+
+🚀 **Onward to Milestone 13!**
+
 # **Milestone 11: Displaying Products on Homepage** 🏪
 
 ## **Overview**

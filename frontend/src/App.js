@@ -7,6 +7,7 @@ import {
   SignupPage,
   ActivationPage,
   CreateProduct,
+  MyProducts,
 } from "./Routess.js"; // Import fixed
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           element={<ActivationPage />}
         />
         <Route path="/create-product" element={<CreateProduct />} />
+        <Route path="/myproducts" element={<MyProducts />} />
       </Routes>
     </BrowserRouter>
   );
