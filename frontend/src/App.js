@@ -22,6 +22,7 @@ const App = () => {
           element={<ActivationPage />}
         />
         <Route path="/create-product" element={<CreateProduct />} />
+        <Route path="/create-product/:id" element={<CreateProduct />} />
         <Route path="/myproducts" element={<MyProducts />} />
       </Routes>
     </BrowserRouter>
