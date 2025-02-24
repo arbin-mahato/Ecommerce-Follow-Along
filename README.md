@@ -2,6 +2,52 @@
 
 ---
 
+# Milestone 13: Edit Product Feature ✏️
+
+## Overview
+
+In Milestone 13, we implemented an **Edit Product Feature** that allows users to update their uploaded products. This involved adding an **Edit button**, prefilling a form with existing product data, and writing a backend **update endpoint** to modify product details in MongoDB. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to write an API endpoint to update existing product data in MongoDB.  
+✅ How to prefill a form with existing product details.  
+✅ How to handle form updates and save changes to the database.
+
+## Why is This Important? 🤔
+
+- **Enhances User Experience**: Users can correct mistakes or modify product details anytime.
+- **Real-World Application**: Understanding update operations is essential for any CRUD-based system.
+- **Database Management**: Helps in learning how to modify existing data efficiently.
+
+## Steps Accomplished in Milestone 13 📝
+
+### 1️⃣ Created an API Endpoint to Update Product Data
+
+- Built a **PUT API endpoint** in the backend.
+- Used **Mongoose's update query** to modify product details based on the product ID.
+
+### 2️⃣ Added an Edit Button to the Product Card
+
+- Placed an **Edit button** inside the existing Product Card component.
+- When clicked, the button opens the product form with prefilled data.
+
+### 3️⃣ Auto-Filled the Product Form and Allowed Editing
+
+- Passed product details to the form via state or props.
+- Allowed users to modify the details and submit the updated data.
+- Sent the edited data to the backend API to update MongoDB.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Created the update API endpoint.
+- **MongoDB & Mongoose**: Updated product details in the database.
+- **React.js**: Prefilled form and handled edit functionality.
+
+🚀 **Onward to Milestone 14!**
+
 # Milestone 12: My Products Page 📦
 
 ## Overview
