@@ -2,6 +2,52 @@
 
 ---
 
+# Milestone 14: Delete Product Feature 🗑️
+
+## Overview
+
+In Milestone 14, we implemented a **Delete Product Feature** that allows users to remove their uploaded products. This involved adding a **Delete button** to the product card and writing a backend **delete endpoint** to remove the product from MongoDB using its ID. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to write an API endpoint to delete a specific product from MongoDB.  
+✅ How to send a delete request from the frontend to remove a product.  
+✅ How to update the UI dynamically after product deletion.
+
+## Why is This Important? 🤔
+
+- **User Control**: Allows users to remove outdated or incorrect product listings.
+- **Database Management**: Helps in learning how to handle data deletion properly.
+- **Improves UX**: Keeps the product list clean and relevant.
+
+## Steps Accomplished in Milestone 14 📝
+
+### 1️⃣ Created an API Endpoint to Delete a Product
+
+- Built a **DELETE API endpoint** in the backend.
+- Used **Mongoose’s deleteOne method** to remove the product based on its ID.
+
+### 2️⃣ Added a Delete Button to the Product Card
+
+- Placed a **Delete button** inside the Product Card component.
+- Styled it properly for better UI experience.
+
+### 3️⃣ Sent Delete Request and Updated the UI
+
+- When clicked, the button **sends a DELETE request** to the server with the product ID.
+- Removed the product from the state to update the UI dynamically.
+- Displayed a confirmation message before deletion to prevent accidental removal.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Created the delete API endpoint.
+- **MongoDB & Mongoose**: Removed the product from the database.
+- **React.js**: Handled delete button click and updated the UI.
+
+🚀 **Onward to Milestone 15!**
+
 # Milestone 13: Edit Product Feature ✏️
 
 ## Overview
