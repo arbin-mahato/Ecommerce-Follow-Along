@@ -2,6 +2,55 @@
 
 ---
 
+# Milestone 15: Navbar Component 🌐
+
+## Overview
+
+In Milestone 15, we built a **Navbar Component** to improve navigation across the application. This involved creating a reusable **Nav component**, adding links to different pages, and ensuring the navbar is **responsive** for all screen sizes. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create a reusable **Navbar component**.  
+✅ How to use **React Router** to navigate between pages.  
+✅ How to make the navbar **responsive** for different screen sizes.
+
+## Why is This Important? 🤔
+
+- **Improves User Experience**: Provides easy navigation across the app.
+- **Code Reusability**: The same navbar is used on multiple pages.
+- **Scalability**: A well-structured navbar helps in future feature expansions.
+
+## Steps Accomplished in Milestone 15 📝
+
+### 1️⃣ Created a Reusable Navbar Component
+
+- Built a **Navbar component** using React.
+- Added navigation links for:
+  - **Home**
+  - **My Products**
+  - **Add Product**
+  - **Cart**
+
+### 2️⃣ Integrated Navbar Across All Pages
+
+- Added the **Navbar component** to all key pages.
+- Ensured smooth navigation using **React Router**.
+
+### 3️⃣ Made the Navbar Responsive
+
+- Used **CSS Flexbox** and **media queries** to make the navbar responsive.
+- Implemented a **hamburger menu** for mobile screens.
+
+## Technologies Used 💻
+
+- **React.js**: Built and reused the Navbar component.
+- **React Router**: Handled navigation between pages.
+- **CSS & Flexbox**: Styled the navbar for responsiveness.
+
+🚀 **Onward to Milestone 16!**
+
 # Milestone 14: Delete Product Feature 🗑️
 
 ## Overview
