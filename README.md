@@ -2,6 +2,51 @@
 
 ---
 
+# Milestone 16: Product Info Page 📄
+
+## Overview
+
+In Milestone 16, we created a **Product Info Page** that displays detailed product information. This page allows users to view all product details, select a quantity, and add the product to their cart. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create a new page to display product details dynamically.  
+✅ How to allow users to select a product quantity.  
+✅ How to add an "Add to Cart" button to store the selected product.
+
+## Why is This Important? 🤔
+
+- **Enhanced User Experience**: Users can view detailed product descriptions before purchasing.
+- **E-commerce Functionality**: Selecting quantity and adding to the cart is a key feature.
+- **Improves UI/UX**: Makes the shopping experience more interactive and user-friendly.
+
+## Steps Accomplished in Milestone 16 📝
+
+### 1️⃣ Created a Dynamic Product Info Page
+
+- Built a new **Product Info Page** that displays detailed product data.
+- Fetched product information dynamically based on the selected product ID.
+
+### 2️⃣ Added Quantity Selection and "Add to Cart" Button
+
+- Implemented a **quantity selector** to let users choose how many items to buy.
+- Created an **Add to Cart** button to store the selected product in the cart.
+
+### 3️⃣ Managed State and Updated UI
+
+- Used **React state** to handle quantity selection and cart updates.
+- Ensured smooth user interaction with the cart system.
+
+## Technologies Used 💻
+
+- **React.js**: Created the Product Info Page and managed state.
+- **React Router**: Handled navigation to individual product pages.
+- **Context API / Redux** (if applicable): Managed cart state globally.
+
+🚀 **Onward to Milestone 17!**
+
 # Milestone 15: Navbar Component 🌐
 
 ## Overview
