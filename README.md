@@ -2,6 +2,51 @@
 
 ---
 
+# Milestone 17: Add to Cart Backend Functionality 🛒
+
+## Overview
+
+In Milestone 17, we implemented the **Add to Cart Backend Functionality**, allowing users to add products to their cart and store them in the database. This involved modifying the **user schema**, creating a **cart schema**, and writing a **backend endpoint** to handle cart operations. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to modify the user schema to store cart products.  
+✅ How to create a separate cart schema to manage cart data.  
+✅ How to write an API endpoint to receive and store cart product details in MongoDB.
+
+## Why is This Important? 🤔
+
+- **Cart Persistence**: Stores selected products in the database, ensuring data is not lost on refresh.
+- **User Experience**: Enables users to manage their selected products before checkout.
+- **Real-World E-commerce Functionality**: Learning how to implement a cart system is essential for any online store.
+
+## Steps Accomplished in Milestone 17 📝
+
+### 1️⃣ Updated the User Schema to Store Cart Products
+
+- Modified the **User model** to include a cart field.
+- Allowed users to have a **cart array** to store selected products.
+
+### 2️⃣ Created a Separate Cart Schema
+
+- Designed a **Cart model** to store cart products efficiently.
+- Ensured cart data is linked to the correct user.
+
+### 3️⃣ Built a Backend API Endpoint to Store Cart Data
+
+- Created a **POST API endpoint** to receive and store cart product details.
+- Used **Mongoose queries** to update the cart data in the database.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Built the cart API endpoint.
+- **MongoDB & Mongoose**: Designed schemas and stored cart data.
+- **React.js**: (To be used later for integrating cart functionality in the frontend).
+
+🚀 **Onward to Milestone 18!**
+
 # Milestone 16: Product Info Page 📄
 
 ## Overview
