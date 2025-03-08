@@ -2,6 +2,50 @@
 
 ---
 
+# Milestone 18: Fetch Cart Products 🛒
+
+## Overview
+
+In Milestone 18, we implemented a **backend endpoint for the cart page** that fetches all products stored in the user's cart. This involved writing an API to retrieve cart items based on the user’s email. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create an API endpoint to fetch cart products for a specific user.  
+✅ How to query MongoDB to retrieve only the user's cart items.  
+✅ How to send the fetched cart data to the frontend for display.
+
+## Why is This Important? 🤔
+
+- **Personalized Shopping Experience**: Users can see their selected cart items.
+- **Efficient Data Fetching**: Retrieves only relevant cart items for the logged-in user.
+- **Foundation for Checkout**: Essential for building the next steps in the e-commerce flow.
+
+## Steps Accomplished in Milestone 18 📝
+
+### 1️⃣ Created a Backend Endpoint for the Cart Page
+
+- Built a **GET API endpoint** in the backend to handle requests from the cart page.
+- Used **Mongoose queries** to fetch cart items based on the user’s email.
+
+### 2️⃣ Queried MongoDB for User-Specific Cart Items
+
+- Retrieved only the products added to the cart by the logged-in user.
+- Ensured that each user's cart remains private and secure.
+
+### 3️⃣ Sent the Fetched Data to the Frontend
+
+- Returned the cart data as a JSON response.
+- Prepared the backend to integrate with the cart page display in the frontend.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Created the cart API endpoint.
+- **MongoDB & Mongoose**: Queried and retrieved user-specific cart products.
+
+🚀 **Onward to Milestone 19!**
+
 # Milestone 17: Add to Cart Backend Functionality 🛒
 
 ## Overview
