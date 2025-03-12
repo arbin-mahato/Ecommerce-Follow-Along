@@ -2,6 +2,52 @@
 
 ---
 
+# Milestone 19: Cart Page & Quantity Update Feature 🛒
+
+## Overview
+
+In Milestone 19, we implemented the **Cart Page UI** and added functionality to **increase or decrease product quantity** inside the cart. This involved creating a frontend cart page, displaying cart products using the backend API, and adding **+/- buttons** to update quantity. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create a **Cart Page UI** and display products inside the cart.  
+✅ How to add **increase (+) and decrease (-) buttons** for product quantity.  
+✅ How to write an **API endpoint** to update quantity in the database.
+
+## Why is This Important? 🤔
+
+- **Enhances Shopping Experience**: Users can modify cart quantities before checkout.
+- **Backend-Frontend Integration**: Strengthens understanding of handling **update operations**.
+- **Database Management**: Allows modifying **existing cart data** dynamically.
+
+## Steps Accomplished in Milestone 19 📝
+
+### 1️⃣ Created the Cart Page UI
+
+- Built a **Cart Page** to display products stored in the cart.
+- Fetched **cart product data** from the backend (from Milestone 18).
+- Designed a structured layout for better **UX and responsiveness**.
+
+### 2️⃣ Added Quantity Update Feature
+
+- Added **+ and - buttons** next to each product to modify quantity.
+- Handled **state updates** to reflect changes in the UI dynamically.
+
+### 3️⃣ Created an API Endpoint for Quantity Updates
+
+- Built a **PUT API endpoint** in the backend to modify product quantity in the cart.
+- Used **MongoDB update queries** to increase or decrease quantity based on user actions.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Created the update quantity API endpoint.
+- **MongoDB & Mongoose**: Stored and updated product quantities dynamically.
+- **React.js**: Built the cart page UI and managed state for quantity updates.
+
+🚀 **Onward to Milestone 20!**
+
 # Milestone 18: Fetch Cart Products 🛒
 
 ## Overview
