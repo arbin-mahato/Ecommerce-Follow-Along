@@ -10,6 +10,7 @@ import {
   MyProducts,
   Cart,
   ProductDetails,
+  Profile,
 } from "./Routess.js"; // Import fixed
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/myproducts" element={<MyProducts />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/product/:id" element={<ProductDetails />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );

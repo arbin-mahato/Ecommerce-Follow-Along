@@ -2,6 +2,52 @@
 
 ---
 
+# Milestone 20: Profile Page 🏠
+
+## Overview
+
+In Milestone 20, we implemented a **Profile Page** that displays user information and addresses. This involved creating a **backend API** to fetch user details and designing a **frontend UI** to show the profile picture, name, email, and addresses. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to write an API endpoint to fetch user data from MongoDB.  
+✅ How to design a profile page with user details and addresses.  
+✅ How to display an "Add Address" button for updating user info.
+
+## Why is This Important? 🤔
+
+- **Personalized Experience**: Users can view their profile and manage their addresses.
+- **Real-World Functionality**: Understanding user account management is crucial for web applications.
+- **Database Querying**: Learn how to fetch user-specific data efficiently.
+
+## Steps Accomplished in Milestone 20 📝
+
+### 1️⃣ Created a Backend Endpoint to Fetch User Data
+
+- Built a **GET API endpoint** in the backend.
+- Used **Mongoose queries** to retrieve user details using their email.
+
+### 2️⃣ Designed the Profile Page UI in Frontend
+
+- Displayed **profile photo, name, and email** in a separate section.
+- Showed **address details** in another section.
+- Added a **"No address found"** message when no address is available.
+
+### 3️⃣ Added an "Add Address" Button
+
+- Provided an option to add an address for better user management.
+- Ensured a clean and responsive UI for all screen sizes.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Created the API to fetch user details.
+- **MongoDB & Mongoose**: Retrieved user profile data from the database.
+- **React.js**: Built the frontend UI for the profile page.
+
+🚀 **Onward to Milestone 21!**
+
 # Milestone 19: Cart Page & Quantity Update Feature 🛒
 
 ## Overview
