@@ -2,6 +2,52 @@
 
 ---
 
+# Milestone 22: Save Address in User Profile 📍
+
+## Overview
+
+In Milestone 22, we implemented a **Save Address Feature** that allows users to store their address details inside their profile. This involved creating a **backend API endpoint** to receive address data from the frontend and updating the **user collection** in MongoDB. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create a backend endpoint to store user address data.  
+✅ How to update the user collection by adding an address.  
+✅ How to send address data from the frontend to the backend.
+
+## Why is This Important? 🤔
+
+- **Enhances User Experience**: Enables users to save their address for future orders.
+- **Real-World Application**: Storing addresses is a key feature in e-commerce platforms.
+- **Database Management**: Helps in understanding how to update nested arrays in MongoDB.
+
+## Steps Accomplished in Milestone 22 📝
+
+### 1️⃣ Created an API Endpoint to Save Address
+
+- Built a **POST API endpoint** in the backend.
+- The endpoint receives address details from the frontend and updates the **user’s profile** in MongoDB.
+
+### 2️⃣ Updated the User Collection in MongoDB
+
+- Modified the **User schema** to include an `addresses` array.
+- Used **Mongoose's update method** to append new addresses to the user profile.
+
+### 3️⃣ Sent Address Data from the Frontend
+
+- Collected address input from the **address form** in the frontend.
+- Sent a **POST request** with the address data to the backend API.
+- Successfully updated the address section in the **Profile Page**.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Created the address storage API.
+- **MongoDB & Mongoose**: Stored and managed user address data.
+- **React.js**: Handled address form submission and API request.
+
+🚀 **Onward to Milestone 23!**
+
 # Milestone 21: Address Form Page 🏠
 
 ## Overview
