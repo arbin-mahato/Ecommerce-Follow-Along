@@ -2,6 +2,50 @@
 
 ---
 
+# Milestone 21: Address Form Page 🏠
+
+## Overview
+
+In Milestone 21, we implemented an **Address Form Page** that allows users to input and store their address details. This involved creating a **frontend form**, managing state for address input, and navigating from the profile page. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create a form for address input.  
+✅ How to manage form state to store user input.  
+✅ How to navigate from the profile page to the address form page.
+
+## Why is This Important? 🤔
+
+- **Personalization**: Enables users to add and manage addresses for orders.
+- **Form Handling**: Helps in learning how to handle complex form inputs efficiently.
+- **Navigation Flow**: Ensures smooth navigation between profile and address form pages.
+
+## Steps Accomplished in Milestone 21 📝
+
+### 1️⃣ Created the Address Form Page
+
+- Designed a **frontend form** to take user address details.
+- Included fields for **Country, City, Address1, Address2, Zip Code, and Address Type**.
+
+### 2️⃣ Managed Address Input Using State
+
+- Used **React state** to store user input dynamically.
+- Ensured form fields update correctly as users type.
+
+### 3️⃣ Linked the Profile Page to the Address Form
+
+- Clicking the **"Add Address"** button in the profile page navigates to the form.
+- Ensured proper routing between profile and address form pages.
+
+## Technologies Used 💻
+
+- **React.js**: Built the address form page and managed state.
+- **React Router**: Handled navigation from the profile page.
+
+🚀 **Onward to Milestone 22!**
+
 # Milestone 20: Profile Page 🏠
 
 ## Overview
