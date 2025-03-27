@@ -2,6 +2,56 @@
 
 ---
 
+# Milestone 23: Select Address & Order Schema 📦
+
+## Overview
+
+In Milestone 23, we implemented a **Select Address Page** in the frontend and created an **Order Schema** in the backend. This involved adding a **Place Order** button, displaying saved addresses for selection, and defining a schema to store order details in MongoDB. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to navigate to a **Select Address Page** when placing an order.  
+✅ How to fetch and display all saved addresses for user selection.  
+✅ How to design a **Mongoose Order Schema** to store order details.
+
+## Why is This Important? 🤔
+
+- **Order Processing**: Essential for handling user orders.
+- **User Experience**: Simplifies the checkout process.
+- **Database Structuring**: Helps in managing order-related data efficiently.
+
+## Steps Accomplished in Milestone 23 📝
+
+### 1️⃣ Added a "Place Order" Button in the Cart Page
+
+- Placed a **Place Order** button inside the cart page.
+- When clicked, navigates the user to the **Select Address Page**.
+
+### 2️⃣ Created a Select Address Page
+
+- Displayed all saved addresses for the logged-in user.
+- Allowed users to select a **delivery address** before placing an order.
+
+### 3️⃣ Wrote a Backend Endpoint to Fetch User Addresses
+
+- Created a **GET API endpoint** that retrieves all addresses stored in the user's profile.
+- Connected the frontend to this endpoint to display addresses dynamically.
+
+### 4️⃣ Designed an Order Schema in Mongoose
+
+- Created a **schema to store order details** in MongoDB.
+- Included fields for user details, selected address, product list, and order status.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Created the API endpoint to fetch addresses.
+- **MongoDB & Mongoose**: Stored addresses and designed the order schema.
+- **React.js**: Created the Select Address Page and handled navigation.
+
+🚀 **Onward to Milestone 24!**
+
 # Milestone 22: Save Address in User Profile 📍
 
 ## Overview
