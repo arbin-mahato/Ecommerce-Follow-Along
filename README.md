@@ -2,6 +2,54 @@
 
 ---
 
+# Milestone 24: Order Confirmation Page ✅
+
+## Overview
+
+In Milestone 24, we created an **Order Confirmation Page** where users can review their order details before placing the order. This page displays the ordered products, selected delivery address, and total price. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create an **Order Confirmation Page** in the frontend.  
+✅ How to display **ordered products**, **selected address**, and **total price**.  
+✅ How to add a **Place Order** button to finalize the order.
+
+## Why is This Important? 🤔
+
+- **Enhances User Experience**: Ensures users can review their order before finalizing it.
+- **E-commerce Best Practice**: A common feature in all online stores.
+- **Prepares for Backend Integration**: This sets the stage for order placement and payment processing.
+
+## Steps Accomplished in Milestone 24 📝
+
+### 1️⃣ Displayed Ordered Products
+
+- Fetched the **list of products** from the cart.
+- Rendered all the **ordered products** with their details.
+
+### 2️⃣ Displayed Selected Delivery Address
+
+- Retrieved the **user's selected address** from the state or backend.
+- Showed **full address details** on the confirmation page.
+
+### 3️⃣ Displayed Total Cart Value
+
+- Calculated and displayed the **total price** of all products in the cart.
+
+### 4️⃣ Added a Place Order Button
+
+- Positioned a **Place Order** button at the bottom of the page.
+- Clicking this button will trigger the **final order placement process** (handled in the next milestone).
+
+## Technologies Used 💻
+
+- **React.js**: Built the Order Confirmation UI.
+- **State Management**: Stored and displayed product and address data dynamically.
+
+🚀 **Onward to Milestone 25!**
+
 # Milestone 23: Select Address & Order Schema 📦
 
 ## Overview
