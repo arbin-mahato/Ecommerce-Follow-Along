@@ -2,6 +2,46 @@
 
 ---
 
+# Milestone 26: Fetch User Orders 📦
+
+## Overview
+
+In Milestone 26, we implemented a **Get User Orders Feature** that allows users to retrieve all their past orders. This involved writing a backend **GET API endpoint** to fetch orders from the database based on the user's email. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to write an API endpoint to retrieve all orders for a specific user.  
+✅ How to query MongoDB using the user’s email to get their orders.  
+✅ How to send the retrieved orders as a response to the frontend.
+
+## Why is This Important? 🤔
+
+- **Order Tracking**: Users can view their past orders.
+- **Enhanced User Experience**: Provides order history functionality.
+- **Database Querying**: Helps in understanding how to fetch user-specific data.
+
+## Steps Accomplished in Milestone 26 📝
+
+### 1️⃣ Created an API Endpoint to Fetch User Orders
+
+- Built a **GET API endpoint** in the backend.
+- Retrieved the user’s `_id` from the database using their email.
+- Queried MongoDB to fetch all orders associated with the user’s `_id`.
+
+### 2️⃣ Sent User Orders as a Response
+
+- Returned all orders in JSON format.
+- Handled error cases where no orders were found.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Created the orders retrieval API.
+- **MongoDB & Mongoose**: Queried orders based on the user’s `_id`.
+
+🚀 **Onward to Milestone 27!**
+
 # Milestone 25: Place Order Backend Endpoint 🛒
 
 ## Overview
