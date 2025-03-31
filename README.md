@@ -2,6 +2,45 @@
 
 ---
 
+# Milestone 25: Place Order Backend Endpoint 🛒
+
+## Overview
+
+In Milestone 25, we implemented a **Place Order Backend Endpoint** to store order details in MongoDB. This involved receiving product, user, and address details, retrieving the user ID using email, and saving each product as a separate order entry. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create an API endpoint to place orders.  
+✅ How to retrieve the user ID from email.  
+✅ How to store order details in the database.
+
+## Why is This Important? 🤔
+
+- **Order Management**: Enables users to place orders seamlessly.
+- **Database Handling**: Strengthens understanding of MongoDB operations.
+- **E-commerce Workflow**: Completes the order placement functionality.
+
+## Steps Accomplished in Milestone 25 📝
+
+### 1️⃣ Created an API Endpoint to Place Orders
+
+- Built a **POST API endpoint** to receive product, user, and address details.
+- Extracted the user ID using the provided email.
+
+### 2️⃣ Stored Orders in the Database
+
+- Used the **Order Schema** to save order details.
+- Ensured each product in the cart was stored as a separate order.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Created the order placement API.
+- **MongoDB & Mongoose**: Stored order details in the database.
+
+🚀 **Onward to Milestone 26!**
+
 # Milestone 24: Order Confirmation Page ✅
 
 ## Overview
