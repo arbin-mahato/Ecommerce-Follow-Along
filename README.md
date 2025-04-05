@@ -2,6 +2,56 @@
 
 ---
 
+# Milestone 27: My Orders Page 📦
+
+## Overview
+
+In Milestone 27, we created a **My Orders Page** on the frontend to display all the orders placed by the user. This page fetches the order data using the backend endpoint built in Milestone 26 and presents each order in a structured, user-friendly layout. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create a dedicated page to list all user-specific orders.  
+✅ How to send a GET request with the user's email to retrieve orders.  
+✅ How to integrate the page with the Navbar for better accessibility.
+
+## Why is This Important? 🤔
+
+- **User Transparency**: Users can see the status and details of all their past orders.
+- **Order Management**: Helps users track their purchases.
+- **Improved UX**: Enhances the overall flow of the e-commerce platform.
+
+## Steps Accomplished in Milestone 27 📝
+
+### 1️⃣ Created a New Frontend Page for My Orders
+
+- Designed and built a **My Orders page** in the frontend.
+- Structured the page to clearly display order information (product, quantity, delivery address, etc).
+
+### 2️⃣ Fetched Orders Using the User's Email
+
+- Sent a **GET request** to the backend `/my-orders` endpoint.
+- Passed the **user's email** as a parameter to fetch relevant orders.
+
+### 3️⃣ Displayed Orders in the UI
+
+- Mapped through the received data and displayed each order.
+- Added styling for a clean and readable layout.
+
+### 4️⃣ Added "My Orders" Page to Navbar
+
+- Included a **"My Orders" link** in the Navbar for easy navigation.
+- Ensured routing works correctly to the new page.
+
+## Technologies Used 💻
+
+- **React.js**: Built the My Orders page and handled API calls.
+- **Express.js & MongoDB**: Backend data retrieval from the orders collection.
+- **React Router**: Navigated between My Orders and other pages.
+
+🚀 **Onward to Milestone 28!**
+
 # Milestone 26: Fetch User Orders 📦
 
 ## Overview
