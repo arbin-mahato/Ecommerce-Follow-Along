@@ -14,6 +14,7 @@ import {
   CreateAddress,
   SelectAddress,
   OrderConfirmation,
+  MyOrdersPage,
 } from "./Routess.js"; // Import fixed
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
         <Route path="/create-address" element={<CreateAddress />} />
         <Route path="/select-address" element={<SelectAddress />} />
         <Route path="/order-confirmation" element={<OrderConfirmation />} />
+        <Route path="/myorders" element={<MyOrdersPage />} />
       </Routes>
     </BrowserRouter>
   );
