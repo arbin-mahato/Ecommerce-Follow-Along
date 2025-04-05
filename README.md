@@ -2,6 +2,52 @@
 
 ---
 
+# Milestone 28: Cancel Order Feature ❌
+
+## Overview
+
+In Milestone 28, we implemented a **Cancel Order** feature that allows users to cancel their previously placed orders from the **My Orders** page. This included adding a **Cancel button** on the frontend and creating a backend **cancel endpoint** to update the order status in MongoDB. 🚀
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create a backend endpoint to cancel a specific order.  
+✅ How to identify and update the order status in the database.  
+✅ How to conditionally render UI elements based on order status.
+
+## Why is This Important? 🤔
+
+- **User Flexibility**: Users can manage their orders with more control.
+- **Real-World Functionality**: Mirrors real e-commerce behavior.
+- **Database Handling**: Understanding how to perform partial updates efficiently.
+
+## Steps Accomplished in Milestone 28 📝
+
+### 1️⃣ Added Cancel Button on My Orders Page
+
+- For each order item, a **Cancel Order** button was added.
+- If the order status is already **cancelled**, the button is **not displayed**.
+
+### 2️⃣ Created Cancel Order Backend Endpoint
+
+- Built a **PUT API endpoint** that accepts an `orderId`.
+- Retrieved the order from the database using the ID.
+- Updated the status field to `cancelled` and saved the changes.
+
+### 3️⃣ Connected Frontend to Backend
+
+- When the **Cancel Order** button is clicked, a **PUT request** is sent to the cancel endpoint.
+- On success, the frontend reflects the updated status dynamically.
+
+## Technologies Used 💻
+
+- **Node.js & Express.js**: Handled cancel order request.
+- **MongoDB & Mongoose**: Updated order status.
+- **React.js**: Managed UI state and conditional rendering.
+
+🚀 **Onward to Milestone 29!**
+
 # Milestone 27: My Orders Page 📦
 
 ## Overview
