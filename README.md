@@ -2,6 +2,51 @@
 
 ---
 
+# Milestone 29: Integrate PayPal Payment Gateway 💳
+
+## Overview
+
+In Milestone 29, we prepared our application for **online payments** by integrating the **PayPal API**. This involved setting up a PayPal Developer account, collecting sandbox credentials, and modifying the frontend to support **Cash on Delivery (COD)** and **PayPal** options for users during checkout.
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to create and configure a PayPal Developer account.  
+✅ How to access and use **sandbox credentials** for testing.  
+✅ How to add radio buttons to toggle between **COD** and **PayPal** payment methods.  
+✅ How to dynamically show the PayPal button when the user selects online payment.
+
+## Why is This Important? 🤔
+
+- **Real-World Experience**: Payment gateway integration is essential in any real-world e-commerce app.
+- **Secure Transactions**: Helps users feel confident when purchasing.
+- **Flexible Checkout**: Offers both online and offline payment options for better UX.
+
+## Steps Accomplished in Milestone 29 📝
+
+### 1️⃣ Setup PayPal Developer Account
+
+- Created a PayPal Developer account.
+- Generated a **sandbox business and personal account**.
+- Copied the **Client ID** from the dashboard for integration.
+
+### 2️⃣ Updated the Order Confirmation Page
+
+- Added two radio buttons: **Cash on Delivery (COD)** and **Online Payment**.
+- When **Online Payment** is selected, a container is prepared to render PayPal buttons.
+
+### 3️⃣ Next Steps
+
+- In the next milestone, we’ll write the code to render and process payments using the PayPal button.
+
+## Technologies Used 💻
+
+- **PayPal API (Sandbox)**: For simulating online transactions.
+- **React.js**: For managing state and conditional rendering of payment options.
+
+🚀 **Onward to Milestone 30 – Let’s power up the PayPal buttons!**
+
 # Milestone 28: Cancel Order Feature ❌
 
 ## Overview

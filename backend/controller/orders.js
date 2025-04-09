@@ -40,12 +40,10 @@ router.post("/place-order", async (req, res) => {
     user.cart = [];
     await user.save();
 
-    res
-      .status(201)
-      .json({
-        message: "Orders placed and cart cleared successfully.",
-        orders,
-      });
+    res.status(201).json({
+      message: "Orders placed and cart cleared successfully.",
+      orders,
+    });
   } catch (error) {
     console.error("Error placing orders:", error);
     res.status(500).json({ message: error.message });
@@ -96,28 +94,6 @@ router.get("/myorders", async (req, res) => {
     res.status(200).json({ orders });
   } catch (error) {
     console.error("Error fetching orders:", error);
-    res.status(500).json({ message: error.message });
-  }
-});
-
-router.patch("/cancel-order/:orderId", async (req, res) => {
-  try {
-    const { orderId } = req.params;
-    console.log("fff");
-    // Find the order by ID
-    const order = await Order.findById(orderId);
-    console.log(order);
-    if (!order) {
-      return res.status(404).json({ message: "Order not found." });
-    }
-
-    // Update order status to 'cancelled'
-    order.orderStatus = "Cancelled";
-    await order.save();
-
-    res.status(200).json({ message: "Order cancelled successfully.", order });
-  } catch (error) {
-    console.error("Error cancelling order:", error);
     res.status(500).json({ message: error.message });
   }
 });
