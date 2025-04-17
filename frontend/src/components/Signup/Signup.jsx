@@ -4,6 +4,7 @@ import styles from "../../styles/styles";
 import { Link } from "react-router-dom";
 import { RxAvatar } from "react-icons/rx";
 import axios from "axios";
+import { useDispatch } from "react-redux";
 
 const Signup = () => {
   const [email, setEmail] = useState("");

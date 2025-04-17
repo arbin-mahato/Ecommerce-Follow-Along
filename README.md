@@ -2,6 +2,53 @@
 
 ---
 
+# Milestone 31: Redux Global State Management 🌍
+
+## Overview
+
+In Milestone 31, we learned how to implement **Redux** to manage global state across our application. This allows us to store and access shared data like the user’s email anywhere in the app.
+
+## Learning Goals 🎯
+
+✅ Understand the purpose and usage of Redux.  
+✅ Create a centralized Redux store to manage global state.  
+✅ Store the user’s email in the global state for universal access.
+
+## Why is This Important? 🤔
+
+- **Centralized State Management**: Keeps global data in one place.
+- **Reusability**: Access shared state from any component.
+- **Scalability**: Easier to manage state in larger apps.
+
+## Steps Accomplished in Milestone 31 📝
+
+### 1️⃣ Installed Redux Dependencies
+
+- Installed `react-redux` using npm.
+
+### 2️⃣ Created Store Folder
+
+- Created a `store/` folder containing:
+  - `store.js`: Configured the Redux store.
+  - `userActions.js`: Contains actions for setting user email.
+
+### 3️⃣ Built Redux Logic
+
+- Defined a `userReducer` to manage user email.
+- Wrote a `setEmail` action to store user email in global state.
+
+### 4️⃣ Wrapped App with Redux Provider
+
+- Wrapped the main `<App />` inside `<Provider>` in `index.js` with the Redux store passed as a prop.
+
+## Technologies Used 💻
+
+- **React.js**
+- **Redux**
+- **react-redux**
+
+🚀 **Onward to Milestone 32!**
+
 # Milestone 30: PayPal Online Payment Integration 💳
 
 ## Overview
