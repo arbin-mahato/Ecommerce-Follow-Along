@@ -2,6 +2,48 @@
 
 ---
 
+# Milestone 30: PayPal Online Payment Integration 💳
+
+## Overview
+
+In Milestone 30, we successfully integrated **PayPal online payment** into our e-commerce application! This builds on the previous milestone where we set up a PayPal developer account and obtained the Client ID. Now, we implemented the actual PayPal payment flow using the `react-paypal-js` package. 💸
+
+## Learning Goals 🎯
+
+By completing this milestone, we learned:
+
+✅ How to integrate **PayPal API** into a React project.  
+✅ How to use the **PayPalScriptProvider** and **PayPalButtons** components.  
+✅ How to dynamically offer both **Cash on Delivery (COD)** and **Online Payment** options.
+
+## Why is This Important? 🤔
+
+- Enables **secure online payments** for users.
+- Makes the application feel more professional and real-world.
+- Teaches real payment integration using a global platform like PayPal.
+
+## Steps Accomplished in Milestone 30 📝
+
+### 1️⃣ Set Up PayPal Integration
+
+- Installed `react-paypal-js` via NPM.
+- Used the **PayPalScriptProvider** with the sandbox **Client ID** obtained in Milestone 29.
+- Integrated **PayPalButtons** to render online payment methods.
+
+### 2️⃣ Updated Order Confirmation Page
+
+- Added radio buttons to select between **COD** and **Online Payment**.
+- On selecting **Online Payment**, PayPal payment buttons are displayed.
+- Payment logic is now functional using PayPal's secure API.
+
+## Technologies Used 💻
+
+- **React.js**: Frontend UI components.
+- **PayPal API**: Online payment integration.
+- **react-paypal-js**: Official PayPal React SDK.
+
+🚀 **Up next: more polish and finishing touches to the app!**
+
 # Milestone 29: Integrate PayPal Payment Gateway 💳
 
 ## Overview
