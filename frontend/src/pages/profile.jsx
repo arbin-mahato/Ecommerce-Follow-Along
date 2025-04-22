@@ -2,28 +2,29 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AddressCard from "../components/AddressCard";
 import Nav from "../components/nav";
+import { useSelector } from "react-redux"; // Import useSelector
 
 export default function Profile() {
+  // Retrieve email from Redux state
+  const email = useSelector((state) => state.user.email);
   const [personalDetails, setPersonalDetails] = useState({
     name: "",
     email: "",
     phoneNumber: "",
     avatarUrl: "",
   });
-
   const [addresses, setAddresses] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(
-      `http://localhost:8000/api/v2/user/profile?email=${"humblearbin@gmail.com"}`,
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    )
+    // Only fetch profile if email exists
+    if (!email) return;
+    fetch(`http://localhost:8000/api/v2/user/profile?email=${email}`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
@@ -35,8 +36,9 @@ export default function Profile() {
         setAddresses(data.addresses);
         console.log("User fetched:", data.user);
         console.log("Addresses fetched:", data.addresses);
-      });
-  }, []);
+      })
+      .catch((err) => console.error(err));
+  }, [email]);
 
   const handleAddAddress = () => {
     navigate("/create-address");
@@ -64,7 +66,7 @@ export default function Profile() {
                   alt="profile"
                   className="w-40 h-40 rounded-full"
                   onError={(e) => {
-                    e.target.onerror = null; // Prevents infinite loop if the default image also fails
+                    e.target.onerror = null;
                     e.target.src = `https://cdn.vectorstock.com/i/500p/17/61/male-avatar-profile-picture-vector-10211761.jpg`;
                   }}
                 />

@@ -2,6 +2,42 @@
 
 ---
 
+# **Milestone 32: Using Redux to Store and Access User Email 📬**
+
+## Overview
+
+In this milestone, we used Redux to **store the user's email globally** after login and **access it across all pages** using Redux hooks. This ensures we can retrieve the logged-in user's email wherever we need it in the app.
+
+## Learning Goals 🎯
+
+✅ Store user email in the global Redux state.  
+✅ Access the stored email from any component/page using `useSelector`.  
+✅ Understand how Redux enables global state sharing in a scalable way.
+
+## Steps Completed 📝
+
+### 1️⃣ Store Email on Login
+
+- Used the `dispatch` method in the **Login page** to store the user's email using the `setEmail()` action.
+
+### 2️⃣ Access Email on All Pages
+
+- Retrieved the stored email in all relevant pages/components using the `useSelector` hook.
+
+## Why This Matters 💡
+
+- Avoids prop drilling.
+- Centralizes user session data.
+- Sets foundation for building authenticated workflows.
+
+## Technologies Used 🛠
+
+- **React.js**
+- **Redux**
+- **react-redux**
+
+🎉 With this, the Redux email flow is complete! On to the next milestone!
+
 # Milestone 31: Redux Global State Management 🌍
 
 ## Overview
