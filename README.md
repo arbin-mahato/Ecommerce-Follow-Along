@@ -2,6 +2,38 @@
 
 ---
 
+## Follow-along project milestone #33
+
+Hey Kalvians! 👋
+
+Welcome to **Milestone 33!** 🌟
+
+Today, we learned how to create a JWT token and store it inside a cookie for authentication.
+
+---
+
+### Learning Goals 🎯
+
+By the end of this milestone, you will:
+
+- Understand how to generate a JWT token.
+- Learn how to store JWT tokens securely in browser cookies.
+
+---
+
+### Steps for Milestone 33 📝
+
+1. Installed the `jsonwebtoken` package using NPM.
+2. Used the `sign` method to create a JWT token with user email and ID.
+3. Set `maxAge` to define the token's expiration time.
+4. Stored the token inside a cookie using the response object.
+
+> 🧠 This milestone helped in understanding how to implement secure authentication using JWT and cookies.
+
+---
+
+Good luck, Kalvians! ✨
+
 # **Milestone 32: Using Redux to Store and Access User Email 📬**
 
 ## Overview
