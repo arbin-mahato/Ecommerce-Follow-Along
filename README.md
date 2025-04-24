@@ -2,6 +2,47 @@
 
 ---
 
+## Follow-along project milestone #34
+
+Hey Kalvians! 👋
+
+Welcome to **Milestone 34!** 🌟
+
+Today, we learned how to validate a JWT token that is stored in the browser cookie.
+
+---
+
+### Learning Goals 🎯
+
+By the end of this milestone, you will:
+
+- Know how to extract the JWT token from cookies and send it to the backend.
+- Validate JWT tokens using middleware for protected routes.
+
+---
+
+### Steps for Milestone 34 📝
+
+1. Extracted the JWT token from the browser cookie.
+2. Sent the token to the backend in requests.
+3. Created a middleware function in the backend to verify the JWT token.
+4. Ensured token validation is applied to all protected routes so users cannot access pages without being logged in.
+
+> 🧠 This milestone was key in implementing secure route protection using token-based authentication.
+
+---
+
+### Submission Guidelines 📥
+
+- ✅ Pushed code to GitHub repository.
+- ✅ Made sure the repository is public.
+- ✅ Updated this README with Milestone 34 progress.
+- ✅ Submitted the GitHub repo link in the assignment submission section.
+
+---
+
+Good luck, Kalvians! ✨
+
 ## Follow-along project milestone #33
 
 Hey Kalvians! 👋
