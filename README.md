@@ -2,6 +2,36 @@
 
 ---
 
+## Follow-along project milestone #35
+
+Hey Kalvians! 👋
+
+Welcome to **Milestone 35!** 🌟
+
+Today, we finally deployed our full-stack project to make it accessible online!
+
+---
+
+### Learning Goals 🎯
+
+By the end of this milestone, you will:
+
+- Understand how to deploy your **backend** to a hosting service.
+- Deploy your **frontend** and connect it with the backend.
+
+---
+
+### Steps for Milestone 35 📝
+
+1. Deployed the backend using a cloud service (e.g., Render, Railway, etc.) and obtained a public URL.
+2. Replaced all instances of `localhost` in the frontend code with the deployed backend URL.
+3. Deployed the frontend using a platform like Vercel or Netlify.
+4. Verified that both frontend and backend are correctly connected and working smoothly in production.
+
+> 🚀 This milestone marked the completion of our full-stack application with live deployment!
+
+Great job reaching this milestone, Kalvians! ✨🎉
+
 ## Follow-along project milestone #34
 
 Hey Kalvians! 👋
